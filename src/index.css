@@ -154,6 +154,8 @@ p {
   cursor: grab;
   transform-origin: center;
   transition: transform 0.2s, box-shadow 0.2s;
+  contain: layout paint;
+  will-change: transform;
 }
 
 .image-item:active {

@@ -26,7 +26,7 @@ export const SortableImage = ({ id, url, index, uploadOrder, onRemove }) => {
       {...attributes}
       {...listeners}
     >
-      <img src={url} alt={`Upload ${index}`} />
+      <img src={url} alt={`Upload ${index}`} loading="lazy" decoding="async" />
       <button 
         className="remove-btn" 
         onClick={(e) => {
