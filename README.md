@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18-blue)
 ![Vite](https://img.shields.io/badge/Vite-5-purple)
-[![CI Pipeline](https://github.com/yourusername/pdfnest/actions/workflows/ci.yml/badge.svg)](https://github.com/yourusername/pdfnest/actions/workflows/ci.yml)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?logo=github-actions&logoColor=white)](#)
 
 **PDFNest** is a beautiful, privacy-first web application that transforms your high-quality images into optimized PDF documents. Built with React and Vite, the entire conversion process happens locally in your browser, guaranteeing zero server uploads and 100% data privacy.
 
