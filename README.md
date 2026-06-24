@@ -59,6 +59,19 @@ npm run build
 ```
 This will generate optimized static files in the `dist` folder, ready to be deployed to Vercel, Netlify, or GitHub Pages.
 
+## 🐳 Running with Docker
+
+PDFNest includes a multi-stage `Dockerfile` to easily run the app in an isolated container using Nginx.
+
+1. Build the Docker image:
+   ```bash
+   docker build -t pdfnest-app .
+   ```
+2. Run the Docker container:
+   ```bash
+   docker run -p 8080:80 -d pdfnest-app
+   ```
+3. Open your browser and visit `http://localhost:8080`
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/pdfnest/issues).
 
