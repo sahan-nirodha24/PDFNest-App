@@ -1,16 +1,66 @@
-# React + Vite
+# 🪹 PDFNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-5-purple)
 
-Currently, two official plugins are available:
+**PDFNest** is a beautiful, privacy-first web application that transforms your high-quality images into optimized PDF documents. Built with React and Vite, the entire conversion process happens locally in your browser, guaranteeing zero server uploads and 100% data privacy.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## ✨ Features
 
-## React Compiler
+- 🔒 **100% Client-Side Processing**: Your images never leave your computer. Everything is processed directly within your browser.
+- 🎨 **Beautiful UI**: Modern glassmorphism design with a seamless Light/Dark mode toggle.
+- 🔄 **Drag & Drop Reordering**: Easily upload multiple images and drag them to arrange the exact page order.
+- 📉 **Smart Compression Engine**: Need a 2.5MB limit? PDFNest iteratively scales and compresses your images on a hidden canvas to hit strict file size limits without destroying visual quality.
+- 👁️ **Interactive Preview**: Preview your generated PDF document in a built-in modal before saving.
+- 🚀 **Lightning Fast**: Optimized with Vite for incredibly fast build and load times.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tech Stack
 
-## Expanding the Oxlint configuration
+- **Framework**: React 18
+- **Build Tool**: Vite
+- **PDF Generation**: [jsPDF](https://github.com/parallax/jsPDF)
+- **Drag & Drop**: [@dnd-kit/core](https://dndkit.com/)
+- **Icons**: [Lucide React](https://lucide.dev/)
+- **Styling**: Vanilla CSS (Custom Glassmorphism Variables)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your machine.
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/pdfnest.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd pdfnest
+   ```
+3. Install dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:5173`
+
+## 📦 Building for Production
+
+To build the app for production, run:
+```bash
+npm run build
+```
+This will generate optimized static files in the `dist` folder, ready to be deployed to Vercel, Netlify, or GitHub Pages.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/pdfnest/issues).
+
+## 📄 License
+This project is licensed under the MIT License.
